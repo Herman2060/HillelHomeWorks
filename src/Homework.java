@@ -42,7 +42,7 @@ public class Homework {
 
     private static void determineSignOfNumber() {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            System.out.print("Введіть число: ");
+        System.out.print("Введіть число: ");
         String input = null;
         try {
             input = reader.readLine();
@@ -50,7 +50,7 @@ public class Homework {
             throw new RuntimeException(e);
         }
         int number = Integer.parseInt(input);
-            System.out.println(number >= 0 ? "Додатнє число" : "Від'ємне число");
+        System.out.println(number >= 0 ? "Додатнє число" : "Від'ємне число");
     }
 
     private static boolean summBetween(int a, int b) {
