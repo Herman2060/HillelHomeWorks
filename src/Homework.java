@@ -36,8 +36,7 @@ public class Homework {
     }
 
     private static boolean numberSing(int number) {
-        if(number < 0) return true;
-        return false;
+        return number < 0;
     }
 
     private static void determineSignOfNumber() {
